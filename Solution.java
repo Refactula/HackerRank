@@ -12,17 +12,8 @@ public class Solution {
 	public static void main(String[] args){Solution solution = new Solution();solution.solve();solution.out.flush();}
 	//endregion
 
-	private void solve() {
-		int n = readInt();
-		int[] a = new int[n];
-		for (int i = 0; i < n; i++) {
-			a[n - i - 1] = readInt();
-		}
-		for (int i = 0; i < n; i++) {
-			out.print(a[i]);
-			out.print(' ');
-		}
-		out.println();
+	void solve() {
+		
 	}
 
 }
